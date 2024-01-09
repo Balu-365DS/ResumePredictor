@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import base64
 import random as rm
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 def extract_text_from_pdf(pdf_file):
     pdf_reader = PdfReader(pdf_file)
@@ -111,5 +111,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
